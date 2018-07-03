@@ -23,7 +23,7 @@ public class Exception {
             System.out.println(a);
         }
         catch (ArithmeticException ae) {
-            System.out.println("You can't divide by zero");
+            System.out.println("You can't divide by 0");
         }
         finally {
             System.out.println("Finally will always execute");
